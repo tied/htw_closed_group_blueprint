@@ -1,0 +1,16 @@
+<ac:layout><ac:layout-section ac:type="single"><ac:layout-cell>
+<p><br /></p>
+<p class="auto-cursor-target"><br /></p></ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell>
+<p>&nbsp;</p></ac:layout-cell></ac:layout-section><ac:layout-section ac:type="two_right_sidebar"><ac:layout-cell>
+<h2>About</h2>
+<p>Dies ist eine geschlossene Gruppe. Nur die auserw&auml;hlten Mitglieder haben Zugriff darauf.</p></ac:layout-cell>
+<ac:layout-cell>
+<p><strong>Gruppenadministrator: </strong><at:var at:name="userMultiField2"/></p>
+<p><strong>Gruppenmitglieder: </strong><at:var at:name="userMultiField"/></p>
+<p><br /></p></ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell>
+<p>&nbsp;</p></ac:layout-cell></ac:layout-section><ac:layout-section ac:type="two_right_sidebar"><ac:layout-cell>
+
+
+<p><br /></p></ac:layout-cell><ac:layout-cell>
+<h2>Recently updated</h2>
+<p><ac:structured-macro ac:name="recently-updated" ac:schema-version="1" ac:macro-id="70e1ec45-3040-4278-bb0e-cce68e1aa006"><ac:parameter ac:name="types">page, comment, blogpost, spacedesc</ac:parameter><ac:parameter ac:name="max">10</ac:parameter><ac:parameter ac:name="hideHeading">true</ac:parameter><ac:parameter ac:name="theme">concise</ac:parameter></ac:structured-macro></p></ac:layout-cell></ac:layout-section></ac:layout>
