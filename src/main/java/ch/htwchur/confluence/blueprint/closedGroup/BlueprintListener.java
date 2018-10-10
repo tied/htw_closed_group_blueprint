@@ -38,7 +38,7 @@ public class BlueprintListener implements InitializingBean, DisposableBean {
 	private static final Logger log = LoggerFactory.getLogger(BlueprintListener.class);
 	private static final String userFieldKey = "userMultiField";
 	private static final String spaceAdminField = "userMultiField2";
-
+	 public static final String MODULE_COMPLETE_KEY = "ch.htwchur.confluence.blueprint.closedGroup.htw_closedGroup_blueprint:closedGroup-blueprint";
 	@Inject
 	public BlueprintListener(EventPublisher eventPublisher,UserAccessor userAccessor) {
 		this.eventPublisher = eventPublisher;
@@ -55,6 +55,11 @@ public class BlueprintListener implements InitializingBean, DisposableBean {
 	public void onBlueprintCreateEvent(SpaceBlueprintCreateEvent event) {
 
 		Space space = event.getSpace();
+		
+	
+		
+	if(MODULE_COMPLETE_KEY.equals(event.getSpaceBlueprint().getModuleCompleteKey())){
+
 		
 		// permissionManager.createDefaultSpacePermissions(event.getSpace());
 					List<SpacePermission> permissions = space.getPermissions();
@@ -137,6 +142,7 @@ public class BlueprintListener implements InitializingBean, DisposableBean {
 			
 
 		}
+	}
 
 	}
 
